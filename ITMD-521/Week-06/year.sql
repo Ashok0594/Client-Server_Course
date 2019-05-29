@@ -1,0 +1,1 @@
+select year as YEAR, max(temperature) as MAX_TEMPERATURE from ncdc.dataperyear group by year;
